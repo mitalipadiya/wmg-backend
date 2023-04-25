@@ -8,6 +8,7 @@ const userSchema = new mongoose.Schema({
   designation: { type: String},
   password: { type: String },
   token: { type: String },
+  survey_data: { type: Object}
 });
 
 module.exports = mongoose.model("user", userSchema);
