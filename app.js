@@ -200,7 +200,11 @@ app.post('/reset-password/:id/:token', async (req, res) => {
 app.put('/update-profile/:id',auth, async (req, res) => {
     const { id } = req.params;
 
-    const { first_name, last_name, email, company, designation } = req.body
+    const { first_name, last_name, email, company, designation, management_level_Current_position,
+            current_function, company_country, company_city, 
+            industry_company_operates,company_turnover, customer_nature,
+            business_value_drivers, industry_recognised_accreditations, 
+            other_recognised_accreditations} = req.body
     try {
         // Create an object with the fields to update
         const updateFields = {};
@@ -218,6 +222,36 @@ app.put('/update-profile/:id',auth, async (req, res) => {
         }
         if (designation) {
           updateFields.designation = designation;
+        }
+        if (management_level_Current_position) {
+          updateFields.management_level_Current_position = management_level_Current_position;
+        }
+        if (current_function) {
+          updateFields.current_function = current_function;
+        }
+        if (company_country) {
+          updateFields.company_country = company_country;
+        }
+        if (company_city) {
+          updateFields.company_city = company_city;
+        }
+        if (industry_company_operates) {
+          updateFields.industry_company_operates = industry_company_operates;
+        }
+        if (company_turnover) {
+          updateFields.company_turnover = company_turnover;
+        }
+        if (customer_nature) {
+          updateFields.customer_nature = customer_nature;
+        }
+        if (business_value_drivers) {
+          updateFields.business_value_drivers = business_value_drivers;
+        }
+        if (industry_recognised_accreditations) {
+          updateFields.industry_recognised_accreditations = industry_recognised_accreditations;
+        }
+        if (other_recognised_accreditations) {
+          updateFields.other_recognised_accreditations = other_recognised_accreditations;
         }
     
         const user = await User.findByIdAndUpdate(id, updateFields, { new: true });
