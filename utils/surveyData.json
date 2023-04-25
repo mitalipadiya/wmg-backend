@@ -1,0 +1,629 @@
+{
+    "categories": [
+      {
+        "category": "Buildings and Services",
+        "questions": [
+          {
+            "heading": "Energy System Optimisation",
+            "subHeading": "please select one option that best describes your business",
+            "options": [
+              "All energy systems for heating, cooling, lighting and ventilating are controlled manually",
+              "Energy systems are automatically controlled through basic timers to re‐duce consumption",
+              "Energy systems are automatically controlled through advanced sensors tolimit consumption to be when needed only",
+              "Energy systems are controlled and monitored through advanced tech‐ nologies for real time energy management and analysis",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Energy Supplier",
+            "subHeading": "please select one option that best describes your business",
+            "options": [
+              "Energy supplier is exclusively fossil-based (e.g. coal, oil, natural gas)",
+              "EEnergy supplier has little fraction of its energy mix from renewablesources but without a Renewable Electricity Guaranteed Origin (REGO) certificate",
+              "Energy supplier has considerable proportion of its energy mix from renewablesources but without a Renewable Electricity Guaranteed Origin (REGO) certificate",
+              "Switch to energy supplier with considerably high proportion of renew‐ able sources with a Renewable Electricity Guaranteed Origin (REGO) certificate and fuel mixdisclosure obligations",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Renewable Energy Integration",
+            "subHeading": "please select one option that best describes your business",
+            "options": [
+              "Zero on-site renewable energy generation",
+              "Minimal level of on-site renewable energy generation to meet basic electricity needs",
+              "Considerable level of on-site renewable energy generation (e.g. installation ofsolar panel and ground source heat pumps to meet electricity and heating needs)",
+              "Fully integrated on-site renewable generation incorporating combinedheat and power (CHP), battery storage and energy recovery systems",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Energy Saving Policies",
+            "subHeading": "please select one option that best describes your business",
+            "options": [
+              "No energy saving policy exists for the organisation",
+              "EEnergy policy for the organisation is established with the use of noticesand reminders",
+              "Walk-rounds are conducted and practices such as consistent meter readingare in place",
+              "Staff are involved in the formulation of the energy policy, targets are set,and energy champions are appointed, alongside the installation of smart meters for auto‐ matic monitoring of energy consumption profile",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Wall Insulation",
+            "subHeading": "please select one option that best describes your business",
+            "options": [
+              "Insulation material has very low R-value (R value of insulation indicates howwell it resists heat, and the higher the R value, the greater the insulation performance). Thisinformation can be retrieved from the building plan",
+              "Insulation material has low R-value",
+              "Insulation material has very high R-value",
+              "Insulation material has ultra high R-value",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Window Glazing",
+            "subHeading": "please select one option that best describes your business",
+            "options": [
+              "Old single glazed windows with high U-Value (a measure of heat transmissionthrough a building part. The lower the U value, the greater the glazing performance)",
+              "Old double glazed windows with air space between glass (U-Value is low)",
+              "Current double glazed units, argon gas, low-E coating (U-Value is very low)",
+              "Latest triple glazed units, argon gas, low-E coating (U-value is ultra low)",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Ventilation Strategy",
+            "subHeading": "(please select one option that best describes your business",
+            "options": [
+              "Uncontrolled natural ventilation, which can either over ventilate or under ven‐ tilate a building, resulting in poor indoor air quality",
+              "Natural ventilation with an effective control mechanism is in place",
+              "Efficient mechanical ventilation systems in place to achieve the right rates ofair exchange in a building",
+              "Implementation of mixed mode ventilation and natural ventilation wher‐ ever practical and appropriate, with mechanical ventilation and/or air conditioning used onlyto the extent they are actually required",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Hot water requirements",
+            "subHeading": "(please select one option that best describes your business",
+            "options": [
+              "Basic installation of time controls and appropriate settings to correctly reflectthe hours of hot water requirements",
+              "Optimal temperature settings of hot water facilities (i.e. not > 60C for nor‐ mal requirements and ensuring that water does not drop below 56C)",
+              "Effective maintenance mechanism are put in place including the replacementof any damaged or missing insulation from all hot water pipe work and cylinders",
+              "Attainment of level 3 with augmentation with heat exchangers and in‐ stallation of efficient solar water heating system",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Hot water requirements",
+            "subHeading": "(please select one option that best describes your business",
+            "options": [
+              "Basic installation of time controls and appropriate settings to correctly reflectthe hours of hot water requirements",
+              "Optimal temperature settings of hot water facilities (i.e. not > 60C for nor‐ mal requirements and ensuring that water does not drop below 56C)",
+              "Effective maintenance mechanism are put in place including the replacementof any damaged or missing insulation from all hot water pipe work and cylinders",
+              "Attainment of level 3 with augmentation with heat exchangers and in‐ stallation of efficient solar water heating system",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Water Consumption",
+            "subHeading": "(please select one option that best describes your business",
+            "options": [
+              "No water saving strategies are in place",
+              "Water saving strategies are implemented (e.g. sub-meters, low-flow re‐ strictors, efficient equipment, etc.)",
+              "Audits and KPIs applied for water consumption of each department",
+              "Establishment of water minimisation team and introduction of 'watertraining' programs. Dependency on alternative water resources (e.g. using natural resources,capturing and treating of water and industrial effluents from an application to another, etc.) ,use of grey water (e.g. for water flushing)",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Water Consumption",
+            "subHeading": "(please select one option that best describes your business",
+            "options": [
+              "No water saving strategies are in place",
+              "Water saving strategies are implemented (e.g. sub-meters, low-flow re‐ strictors, efficient equipment, etc.)",
+              "Audits and KPIs applied for water consumption of each department",
+              "Establishment of water minimisation team and introduction of 'watertraining' programs. Dependency on alternative water resources (e.g. using natural resources,capturing and treating of water and industrial effluents from an application to another, etc.) ,use of grey water (e.g. for water flushing)",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Boilers Efficiency",
+            "subHeading": "(please select one option that best describes your business",
+            "options": [
+              "Inefficient existing conventional boilers with increased uncontrolled excess airand boiler cycling, leading to increased fuel costs",
+              "Efficient existing conventional boilers with excess air and boiler cyclingcontrol mechanism (e.g. timers, thermostat, etc.)",
+              "Regular condensed boilers with effective control systems for excess air andboiler cycling",
+              "Incorporation of highly efficient heating systems backed with appropri‐ ate energy rating (e.g. condensing boilers for their higher seasonal efficiency) with effectivecontrols",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Equipment Efficiency [Office]",
+            "subHeading": "(please select one option that best describes your business",
+            "options": [
+              "No consideration to equipment efficiency in purchasing decisions",
+              "Equipment's efficiency is considered in purchasing decisions",
+              "Existing equipment are upgraded with energy-efficient appliances with re‐ couped savings across the lifespan of the equipment",
+              "High dependency on energy star labelled electrical appliances and en‐ ergy labelling schemes (e.g. European Ecolabel scheme, energy-saving star, market transfor‐ mation program)",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Power Purchase Agreement [PPA]",
+            "subHeading": "(please select one option that best describes your business",
+            "options": [
+              "No PPA with low-carbon suppliers in place",
+              "PPA with low-carbon suppliers concept is understood but not explored yet",
+              "PPA low-carbon suppliers concept is understood and being explored",
+              "PPA low-carbon suppliers concept is understood and in place",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Printing & Paper",
+            "subHeading": "(please select one option that best describes your business",
+            "options": [
+              "Printing is not controlled and no consideration given to printing environmental impact",
+              "Use recycled paper instead of virgin paper and encourage double-sidedprinting and copying",
+              "Alongside the use of recycled paper, implement printing access controls andManaged Print Service (MPS)",
+              "Encourage the switch to digital media over print wherever possible.Implement convenient ink replacements and smart delivery strategies",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Organisation and Culture",
+        "questions": [
+          {
+            "heading": "Shared Ambition",
+            "subHeading": "please select one option that best describes your business",
+            "options": [
+              "Improve efficiency to reduce environmental impact and save money",
+              "Identify business risks and opportunities related to the environmentand/or set and achieve environmental performance targets that clearly differentiate thecompany from its competitors",
+              "Alongside level 2, anticipate the needs and concerns of customers, as well asstakeholders",
+              "Deliver environmental performance and innovative products that attractexternal investment and make the company the preferred supplier and brand",
+              "Don't know",
+              "Not applicable"
+            ]
+          },
+          {
+            "heading": "Governance and Performance tracking [sustainable sourcing]",
+            "subHeading": "please select one option that best describes your business",
+            "options": [
+              "No governance structure in place to support sustainable sourcing",
+              "Rudimentary governance structure in place to support sustainablesourcing",
+              "Sustainable sourcing policy in place",
+              "Robust sustainable procurement policy and governance structure inplace",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Emissions Measurement and Monitoring",
+            "subHeading": "please select one option that best describes your business",
+            "options": [
+              "No measurement, reporting or tracking of organisation's emissions",
+              "Organisation's direct emissions are measured and reported with no ongo‐ ing analysis and review",
+              "Annual analysis of organisation's Scope 1 and 2 emissions using internationally recognised measurement and evaluation systems",
+              "Scopes 1, 2 and 3 emissions are consistently tracked, reported, analyzedand minimised",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Organizational Buy-in",
+            "subHeading": "please select one option that best describes your business",
+            "options": [
+              "Sustainable sourcing champion identified within procurement function",
+              "Sustainable sourcing responsibilities built into all procurement functionroles",
+              "Sustainable sourcing responsibilities combined into cross-functional teams",
+              "Wide-ranging employee buy-in to sustainable sourcing responsibilities",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Organizational Buy-in",
+            "subHeading": "please select one option that best describes your business",
+            "options": [
+              "Sustainable sourcing champion identified within procurement function",
+              "Sustainable sourcing responsibilities built into all procurement functionroles",
+              "Sustainable sourcing responsibilities combined into cross-functional teams",
+              "Wide-ranging employee buy-in to sustainable sourcing responsibilities",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Employee Engagement [Environment]",
+            "subHeading": "please select one option that best describes your business",
+            "options": [
+              "Employees are neither engaged with, nor updated about, the business’s environmental goals",
+              "Organisation's direct emissions are measured and reported with no ongo‐ ing analysis and review",
+              "Annual analysis of organisation's Scope 1 and 2 emissions using internation‐ ally recognised measurement and evaluation systems",
+              "Scopes 1, 2 and 3 emissions are consistently tracked, reported, analysedand minimised",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Skills and Trainings [Sustainability Team]",
+            "subHeading": "please select one option that best describes your business",
+            "options": [
+              "Sustainability team lacks awareness of net-zero carbon emission targets",
+              "Considerable number of the sustainability team have received standardtrainings towards achieving the Net-Zero carbon emission targets",
+              "Considerable number of sustainability team have received multiple trainingstowards achieving the Net-Zero carbon emission targets",
+              "Considerable number of the sustainability have received multi-leveltrainings towards achieving the Net-Zero carbon emission targets",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Behaviour Change Activities",
+            "subHeading": "please select one option that best describes your business",
+            "options": [
+              "Activities to facilitate behavioural changes is lacking",
+              "Behaviour change activities to improve energy efficiency and waste reduction is in place at the shop floor level",
+              "Behaviour change activities to improve energy efficiency and waste reductionis in place at the local office level",
+              "Behaviour change activities to improve energy efficiency and waste reduction is in place and forms part of the company's sustainability strategy",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Reward",
+            "subHeading": "please select one option that best describes your business",
+            "options": [
+              "No internal rewards available",
+              "Plans are underway to recognise and reward best practices",
+              "Internal award events in place to recognize best practices",
+              "External supplier and employee award events in place",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Employee Travel [Business]",
+            "subHeading": "please select one option that best describes your business",
+            "options": [
+              "No considerations given to employee's business-related travels",
+              "Employee travel data (e.g. mileage and transport mode) is consistentlycollected for scope 1 emission assessment",
+              "Policy promoting low carbon modes of travel (e.g. electric vehicles) and traveldata collected for scope 2 emission assessment",
+              "External and air travel data is consistently collected for scope 3 emissionassessment, while offsetting the resulting emissions",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Employee Travel [Personal]",
+            "subHeading": "please select one option that best describes your business",
+            "options": [
+              "Unlimited and unmeasured employee travel",
+              "Encouraging schemes such as cycle to work, flexible working hours, working from home etc",
+              "Create a reward system for the adoption of low-carbon and sustainablemeans of transportation",
+              "Encourage the implementation of advanced technologies (e.g. virtual re‐ ality) to minimise international travel",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Supply Chain and Logistics",
+        "questions": [
+          {
+            "heading": "Supplier Selection",
+            "subHeading": "please select one option that best describes your business",
+            "options": [
+              "Supplier selection and evaluation does not consider sustainability factors and KPIs",
+              "Supplier selection and evaluation consider sustainability factors and KPIs",
+              "Supplier selection and evaluation consider sustainability factors and KPIs withoccasional sustainability performance monitoring",
+              "Supplier selection and evaluation consider sustainability factors and KPIswith continuous sustainability performance monitoring",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Supplier Sustainability Engagement",
+            "subHeading": "please select one option that best describes your business",
+            "options": [
+              "Sustainability expectations are set and communicated to suppliers but theyare not incorporated into contracts and not enforced.",
+              "Monitoring & evaluation in the form of self-assessment of supplier sus‐ tainability performance is in place. On-site evaluations of sustainability performance areconducted",
+              "Remediation & capability building which encourages suppliers to address is‐ sues of poor performance is in place. Training, resources, and support to improve sustain‐ ability management and performance is provided",
+              "Partnership is established between company and suppliers. Supplierownership is supported to address the root causes of poor sustainability performance",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Supplier Performance Monitoring",
+            "subHeading": "(please select one option that best describes your business",
+            "options": [
+              "Limited tracking of performance",
+              "Information gathering capabilities in place",
+              "Information-gathering capabilities and risk measurement in place",
+              "Performance tracking connected to corporate objectives",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Supplier Performance Measurement",
+            "subHeading": "(please select one option that best describes your business",
+            "options": [
+              "Supplier evaluations based only on cost, quality and delivery measures",
+              "Sustainable sourcing criteria included within selection process",
+              "Supplier performance measured/audited and communicated to suppliers",
+              "Innovative supplier development initiatives in place",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Supply Chain Integration",
+            "subHeading": "(please select one option that best describes your business",
+            "options": [
+              "Ad-hoc reactive communications with suppliers/customers",
+              "Basic communication and data sharing when required withsuppliers/customers",
+              "Data transfer between key strategic suppliers/customers (e.g. inventory levels)",
+              "Fully integrated systems with suppliers/customers for appropriate pro‐ cesses (e.g. real-time integrated planning)",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Supply Chain Sustainability",
+            "subHeading": "(please select one option that best describes your business",
+            "options": [
+              "No consideration to supply chain sustainability",
+              "Only economic aspect of sustainability is considered",
+              "Economic and environmental aspects of sustainability are considered",
+              "High consideration to the supply chain's triple bottom line incorporatingeconomic, environment and social aspects",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Lead Times",
+            "subHeading": "(please select one option that best describes your business",
+            "options": [
+              "Long materials lead time resulting in high inventory levels",
+              "Improvements have been identified to reduce lead times for somematerials",
+              "Some improvements have been implemented to reduce lead times on keymaterials",
+              "Differentiated stocking policies and lead times to meet make-to-orderefficiently",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Manufacturing Processes",
+        "questions": [
+          {
+            "heading": "Overall Equipment Effectiveness [OEE] [Plant Performance]",
+            "subHeading": "please select one option that best describes your business",
+            "options": [
+              "OEE mostly below 50% (OEE pertains to how much your machine or plant isworking effectively within a given time frame)",
+              "OEE mostly over 70%",
+              "OEE mostly over 85%",
+              "OEE mostly over 95%",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Equipment Maintenance",
+            "subHeading": "please select one option that best describes your business",
+            "options": [
+              "No regular maintenance plans",
+              "Annual standard maintenance",
+              "Planned preventive maintenance",
+              "Predictive maintenance informed by machine data analysis",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Process Planning and Execution",
+            "subHeading": "please select one option that best describes your business",
+            "options": [
+              "Basic process planning with no tracking of process resources and energy consumption",
+              "Basic process planning with tracking of process resources and energyconsumption",
+              "LEAN manufacturing principles are highly utilised in controlling energy consumption, production scheduling, resources usage and process, planning (e.g. waste elimination, continuous improvement, JIT, Poka-Yoke, etc.)",
+              "Increasingly intelligent process planning and energy consumption control, supported by advanced computer technology (e.g. computer-aided process planning -CAPP- software)",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Energy Recovery System",
+            "subHeading": "please select one option that best describes your business",
+            "options": [
+              "No energy recovery system",
+              "Basic energy recovery system is installed to collect energy from facilities'exhaust and feed the resulted heat into another process",
+              "Energy recovery system is used to collect heat from the facilities' exhaust andrepurposed for other applications",
+              "Energy recovery system is used in supplementing the organisation's energy production",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Automation and Control",
+            "subHeading": "please select one option that best describes your business",
+            "options": [
+              "Few machines can be controlled through automation",
+              "Some machines and system infrastructures can be controlled viaautomation",
+              "Most machines and system infrastructures can be controlled throughautomation",
+              "Machines and systems can be controlled completely throughautomation",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Operations Data Collection and Usage",
+            "subHeading": "please select one option that best describes your business",
+            "options": [
+              "Data is manually collected and used for quality and regulatory purposes only",
+              "Data is digitally collected in certain areas and used for processescontrolling",
+              "Comprehensive digital data is collected in multiple areas and used for processes optimisation (e.g. predictive maintenance)",
+              "Comprehensive automated digital data collection across the entireprocess and used to inform net-zero carbon strategies",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Real Time Tracking",
+            "subHeading": "please select one option that best describes your business",
+            "options": [
+              "Limited or no product tracking",
+              "Product can be tracked as it moves between manufacturing and internaldistribution sites",
+              "Product can be tracked through manufacturing and distribution until itreaches the customers distribution centre",
+              "Product can be tracked along the complete lifecycle",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Materials and Products",
+        "questions": [
+          {
+            "heading": "Product Material Efficiency",
+            "subHeading": "please select one option that best describes your business",
+            "options": [
+              "No consideration given to product material efficiency",
+              "Use of less material input required for product development and avoid‐ ance of over-specification",
+              "Encouraging intelligent specifications of materials with lower embodiedimpacts",
+              "Adopt advanced material property optimisation to facilitate material us‐ age reduction and imbibe new product design principles",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Environmental Impact of Products",
+            "subHeading": "please select one option that best describes your business",
+            "options": [
+              "Results in significant damage or enhancement to the general environment andis of great concern to stakeholders",
+              "Causes some damage or enhancement to some parts of the environmentand attracts some stakeholder concern",
+              "Causes less damage or enhancement to some parts of the environment andattracts lesser degree of stakeholder concern",
+              "Results in minimal environmental damage or enhancement, with limitedstakeholder concern",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Life Cycle Assessment [LCA]",
+            "subHeading": "please select one option that best describes your business",
+            "options": [
+              "No LCA conducted for products",
+              "Cradle-to-Gate LCA (Partial LCA: from resource extraction to the factorygates, before product is transported to consumer)",
+              "Cradle-to-Grave LCA (Full LCA: from resource extraction to the disposalphase)",
+              "Cradle-to-Cradle LCA (Close-loop LCA: product's end-life becomes inputinto another supply chain creating a circular production system)",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Business Impact of Products",
+            "subHeading": "please select one option that best describes your business",
+            "options": [
+              "Maxiumum ramifications for business and reputation with potential for substantial losses",
+              "Significant ramifications for business and reputation with potential forsubstantial losses",
+              "Moderate ramifications for business and reputation",
+              "Minimal ramifications for business and reputation",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Product Environmental Requirements",
+            "subHeading": "please select one option that best describes your business",
+            "options": [
+              "Environmental requirements are not addressed for final product",
+              "Environmental requirements are addressed and tracked at final productinspection procedures",
+              "Environmental requirements are addressed at product's manufacturing stage",
+              "Environmental requirements are based on Design for Environment (DfE)principles",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Packaging Materials",
+            "subHeading": "please select one option that best describes your business",
+            "options": [
+              "Packaging material is based on the traditional approaches which focus on aes‐ thetic alone",
+              "Packaging materials are recyclable and/or made of recycled materials,without compromising aesthetics",
+              "Packaging materials combines aesthetics with reusability built into it",
+              "Packaging materials are based on innovative and smart sustainable design, facilitating durability, reusability and recyclability",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Product Material Consumption",
+            "subHeading": "please select one option that best describes your business",
+            "options": [
+              "Contains non-renewable or hazardous materials",
+              "Contains considerable but manageable quantity of non-renewable or hazardous materials",
+              "Contains minimal amount of non-renewable or hazardous materials",
+              "Contain 100% recycled, renewable or reused materials",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Chemical Usage",
+            "subHeading": "please select one option that best describes your business",
+            "options": [
+              "Chemical usage for related processes does not follow any health & safety orlegislative guidelines",
+              "Chemical usage for related process are monitored with mechanism inplace for monitoring but not guided by any legislation or guidelines",
+              "Chemical usage follows the UK Registration, Evaluation, Authorisation andRestriction of Chemicals (REACH) legislation and guidelines",
+              "Chemical usage follows the REACH legislation and guidelines, alongsidethe implementation of circular economy strategies for chemical use and handling",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+            "heading": "Circular Business Models",
+            "subHeading": "please select one option that best describes your business",
+            "options": [
+              "Circular business models (i.e. product per useful service) are not taken intoconsideration",
+              "Circular business models is under consideration but not yet embraced andimplemented",
+              "Circular business models such as higher utilisation and intensive use of products (e.g. sharing of products and product as service) is in place",
+              "Circular business models such as longer lifetime of products, design fordurability and disassembly, long lasting materials, improved maintenance and remanufacturing, are in place",
+              "Don't Know / Not sure",
+              "Not Applicable"
+            ]
+          },
+          {
+              "heading": "Waste Disposal Mechanism",
+              "subHeading": "please select one option that best describes your business",
+              "options": [
+                "Directly to landfill",
+                "Incineration/ energy or waste recovery",
+                "Recycling/reuse",
+                "Waste prevention and minimisation",
+                "Don't Know / Not sure",
+                "Not Applicable"
+              ]
+            }
+        ]
+      }
+    ]
+  }
