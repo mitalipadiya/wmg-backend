@@ -231,6 +231,38 @@ app.put('/update-profile/:id',auth, async (req, res) => {
         console.log(error);
         res.status(500).json({ message: 'Failed to update user' });
       }
+});
+
+app.put('/surveyResponse/:id', auth, async (req, res) =>{
+    
+  const { id } = req.params;
+  const surveyResponse = req.body
+
+  try {
+    const updateFields = {};
+
+    if (surveyResponse && surveyResponse.categories) {
+
+      updateFields.survey_data = surveyResponse
+
+      const user = await User.findByIdAndUpdate(id, updateFields, { new: true });
+
+      if (!user) {
+        return res.status(404).json({ message: 'User not found' });
+      }
+
+      res.status(200).json({ message: 'Survey Data updated sucessfully' });
+    } else {
+
+      res.status(404).json({ message: 'Survey Response not found' });
+    }
+  } catch (error) {
+
+    console.log(error);
+
+    res.status(500).json({ message: 'Failed to update user' });
+  }
+
 })
 
 module.exports = app;
