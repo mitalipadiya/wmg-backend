@@ -52,7 +52,7 @@ async function fetchData() {
     }
   }
 
-  return convertedData
+  return convertedData;
 }
   
 
