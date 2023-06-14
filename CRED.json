@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "fine-blueprint-322011",
+  "private_key_id": "87b9b0ae4c1faccb69e4737d7ebb750de890119d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDJvCeyoz6J39WN\n/kghIe7OJJCnya+ZbqRxI4yzgDUpHzUG3RDPXwWlu7Q4g/7arb9ZVUBW/zOL8jj0\noARpmXZLoleXC/yAmt1omtsCv369DIy7GbyAvjVtxaoTqiSHh7PnwZHJTZ0bBRdM\ns3ooOSohyLLugzF1sHDFW7mJ1ZAGJI/TA/X1Hs+0AwAE68APw1JertwakPN+TXha\nfOTvtTiY8pjmNqcGYLHlaGu77cXN+DIXqhT/tZCt7aUFrmid7FAK4/xQK6gGZ/sp\n8VM+SinO5+ZJKtpaCxH/Vbe79Kz+2b5/oNRb01ppr1lLK75WnfMDDb4HNM6R0Ej/\n1bQchPl3AgMBAAECggEAGpFcDQuwtcmzv0KIz0w/vghUwLQwGx3WLExJQG6XEbZZ\nbnD4wMa74KrKvlKr4rLVK3etxIdRi5G37IeSbTHXwXg83timRW2f0SHry/3aPB2F\n/zIRgEcMlEte7b4Pl4XIrLHyeDdvhFp0Shas9NUqdk6POhgvEFfPUj6VPdDRae10\n30y6MYaZWgtCFQbAjLJ9PKHd1JZNcCPOSfnhSxcwuEU3TUfkRn9Vn9S0khSeYuV9\nKBm3+rFr2BRFkHQZrXE0S53LpojJxnGxIHvdueoX8tejh6OJqtTkE7SrAAOIMgN3\ntgJLyhavNwaaQLsZ9LrwTQzeYoZ8uTcPrB9auzIMEQKBgQDo58bxdSqlrwX8gGKG\nZS46OIyhUWIOLL13FS3Xf7axSamirWw+7+QB6/CfM+o4CetH8qo0+oe4e9IGLoiX\n0iEQgBXJtHoXxfWN5EDfNm5YH1IhbB19ch0gOFoj4SIBS7qQRTCgg6LlipzSVdcg\nNqtQxlRVqlpgQ1s9CxYS/QiGyQKBgQDdvSDLuNlLmxUI94FRh5yKhC8l3JtdEx6w\nZJh75ObV3eUMVXd1kmQBmGiwmPHF9Q2nkZ68B6EHsnIP01TacwYDdI6vxAxvJMod\nt6zE5E0RKUtejlxele5kXiuEh5wACb2Tcg0zoB3o4d2p8qaMoUzrYWEvMffJlKuJ\nU11l535ePwKBgBUaOwpRpWWRsCcqssKelEuuJ//N0eaa4yfRAXBPIAx8MiSNNguV\nzMDn0ct69rPRIkJImGdoc7ehcGwi9zlaTqiiEldOROm2hAMxNTeERQcy/0wL8bgW\nCNGMiY5KrbwUUnkT683/X1kQ8BiWsoE2stsEvUttvfaO48tqH7vktUsRAoGAVoRr\n3nFCf6iD/Zqs34XdQ4Kt7sTz7c3/BG5LvNOkacAJldVnJf23fZPdDUKv20BxUneU\nCuOjJiCvNpOLoSyOJRz+a4BAJcGiBxRamfxGQbLuEHfVfKZdfNXtful2qeEjEfvH\nQORxpyMx3RSrfWWWYKT/SW3is8mJYKyhXZiEivsCgYEA0sd3ppYfG95IuE4DHEk/\n1igKSaESRxNHN8uIa/EkfCMMZlKAEpNX9TuKQpEzR4QK9BILDw7haCMWXQ9hyzn9\nSj/LFoLE0txElKmrN1qHNt3SfkcqOSrWvp4NeBjvXHcE5Ax6ai/u8HyhlcCHtnCd\nYwgREcacnge+l7ULfky5c/8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "wmg-965@fine-blueprint-322011.iam.gserviceaccount.com",
+  "client_id": "104414801915339072055",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/wmg-965%40fine-blueprint-322011.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

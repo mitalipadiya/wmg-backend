@@ -5,7 +5,7 @@ const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const cors = require("cors");
 const nodemailer = require('nodemailer');
-const surveyData = require('./utils/surveyData.json');
+const surveyData = require('./utils/excel_to_json');
 
 const app = express();
 
