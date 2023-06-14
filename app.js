@@ -123,7 +123,7 @@ app.post('/forgot-password', async (req, res) => {;
       return res.status(404).json({ message: 'User not found' });
     }
     
-    const secret = process.env.TOKEN_KEY + user.password
+    const secret = process.env.TOKEN_KEY;
     const token = jwt.sign({ userId: user.id }, secret, {
       expiresIn: '600000'
     });
