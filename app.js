@@ -5,7 +5,7 @@ const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const cors = require("cors");
 const nodemailer = require('nodemailer');
-const surveyData = require('./utils/excel_to_json');
+const fetchData = require('./utils/excel_to_json');
 
 const app = express();
 
@@ -44,6 +44,8 @@ app.post("/register", async (req, res) => {
 
         //Encrypt user password
         encryptedPassword = await bcrypt.hash(password, 10);
+        const surveyData = await fetchData();
+        console.log("surveyData ==>", surveyData);
 
         // Create user in our database
         const user = await User.create({
