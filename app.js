@@ -5,7 +5,7 @@ const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const cors = require("cors");
 const nodemailer = require('nodemailer');
-const surveyData = require('./utils/surveyData.json');
+const fetchData = require('./utils/excel_to_json');
 
 const app = express();
 
@@ -44,6 +44,8 @@ app.post("/register", async (req, res) => {
 
         //Encrypt user password
         encryptedPassword = await bcrypt.hash(password, 10);
+        const surveyData = await fetchData();
+        console.log("surveyData ==>", surveyData);
 
         // Create user in our database
         const user = await User.create({
@@ -140,7 +142,7 @@ app.post('/forgot-password', async (req, res) => {;
       subject: 'Reset your password',
       html: `
         <p>Please click the link below to reset your password</p>
-        <a href="${process.env.RESET_PASSWORD_URL}/reset-password/${token}">${process.env.RESET_PASSWORD_URL}/reset-password/${token}</a>
+        <a href="${process.env.RESET_PASSWORD_URL}/create-new/${token}">${process.env.RESET_PASSWORD_URL}/create-new/${token}</a>
       `
     };
   
@@ -155,36 +157,22 @@ app.post('/forgot-password', async (req, res) => {;
     });
 });
 
-app.post('/reset-password/:id/:token', async (req, res) => {
-    const { id, token } = req.params;
+app.post('/reset-password', auth, async (req, res) => {
+    const { userId } = req.user;
 
-    const { password, confirm_password } = req.body
+    const { password } = req.body;
 
-    const user = await User.findOne({ _id : id });
+    const user = await User.findOne({ _id : userId });
 
     if (!user) {
-        return res.status(400).json({ message: 'Invalid User!! ' });
+        return res.status(400).json({ message: 'User not found' });
     }
-    if (!token || !password) {
-        return res.status(400).json({ message: 'Token and password are required' });
+    if (!password) {
+        return res.status(400).json({ message: 'Password is required' });
     }
-    const secret = process.env.TOKEN_KEY + user.password
     try {
-        const decoded = jwt.verify(token, secret);
-        
-        if (password != confirm_password) {
-            return res.status(400).json({ message: 'password and confirm password should match' });
-        }
-        const userId = decoded.userId;
-
-        const user = await User.findOne({ _id : userId });
-
-        if (!user) {
-        return res.status(404).json({ message: 'User not found' });
-        }
-
         encryptedPassword = await bcrypt.hash(password, 10);
-        const data = await User.updateOne({_id:userId}, { $set: {password:encryptedPassword}})
+        const data = await User.updateOne({_id: userId}, { $set: {password:encryptedPassword}})
         if(!data) {
             return res.status(200).json({ message: 'Password updated Succesfully'})
         } else {
