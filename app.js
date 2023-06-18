@@ -25,11 +25,10 @@ const CRED = {
   "client_id": process.env.CLIENT_ID,
   "auth_uri": process.env.AUTH_URI,
   "token_uri": process.env.TOKEN_URI,
-  "auth_provider_x509_cert_url": process.env.AUTH_PROVIDER_X509_CERT_URL,
-  "client_x509_cert_url": process.env.CLIENT_X509_CERT_URL,
+  "auth_provider_x509_cert_url": process.env.AUTH_PROVIDER,
+  "client_x509_cert_url": process.env.CLIENT_CERT_URL,
   "universe_domain": process.env.UNIVERSE_DOMAIN
 }
-console.log(CRED);
 app.post("/welcome", auth, (req, res) => {
   res.status(200).send("Welcome");
 });
@@ -58,7 +57,6 @@ app.post("/register", async (req, res) => {
         //Encrypt user password
         encryptedPassword = await bcrypt.hash(password, 10);
         const surveyData = await fetchData(CRED);
-        console.log("surveyData ==>", surveyData);
 
         // Create user in our database
         const user = await User.create({
