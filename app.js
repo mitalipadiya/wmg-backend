@@ -61,10 +61,7 @@ app.post("/register", async (req, res) => {
         // Create token
         const token = jwt.sign(
             { user_id: user._id, email },
-            process.env.TOKEN_KEY,
-            {
-                expiresIn: "2h",
-            }
+            process.env.TOKEN_KEY
         );
         // save user token
         user.token = token;
@@ -95,10 +92,7 @@ app.post("/login", async (req, res) => {
             // Create token
             const token = jwt.sign(
                 { user_id: user._id, email },
-                process.env.TOKEN_KEY,
-                {
-                    expiresIn: "2h",
-                }
+                process.env.TOKEN_KEY
             );
 
             // save user token
@@ -124,9 +118,7 @@ app.post('/forgot-password', async (req, res) => {;
     }
     
     const secret = process.env.TOKEN_KEY;
-    const token = jwt.sign({ userId: user.id }, secret, {
-      expiresIn: '600000'
-    });
+    const token = jwt.sign({ userId: user.id }, secret);
 
     const transporter = nodemailer.createTransport({
       service: 'gmail',
