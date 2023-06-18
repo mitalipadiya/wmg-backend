@@ -1,8 +1,6 @@
 const { google } = require('googleapis');
-const credentials = require('../CRED.json')
 
-
-async function fetchData() {
+async function fetchData(credentials) {
 
   const convertedData = {
     categories: []
