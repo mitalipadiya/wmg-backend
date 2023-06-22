@@ -28,7 +28,10 @@ async function fetchData(credentials) {
     const category = data[i][0];
     const heading = data[i][1];
     const subHeading = data[i][2];
-    const options = data[i].slice(3);
+    const iarl = data[i][3];
+    const mrl = data[i][4];
+    const lrl = data[i][5]
+    const options = data[i].slice(6);
   
     const existingCategory = convertedData.categories.find(cat => cat.category === category);
   
@@ -36,6 +39,9 @@ async function fetchData(credentials) {
       existingCategory.questions.push({
         heading,
         subHeading,
+        iarl,
+        mrl,
+        lrl,
         options
       });
     } else {
@@ -44,11 +50,15 @@ async function fetchData(credentials) {
         questions: [{
           heading,
           subHeading,
+          iarl,
+          mrl,
+          lrl,
           options
         }]
       });
     }
   }
+  convertedData.lastUpdated = Date.now();
 
   return convertedData;
 }
